@@ -1,0 +1,105 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #f4f7fb;
+}
+
+/* Main headings */
+.title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172b4d;
+}
+
+.subtitle {
+    -fx-font-size: 16px;
+    -fx-text-fill: #526581;
+}
+
+/* Standard buttons */
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #172b4d;
+    -fx-font-size: 15px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #d7dfeb;
+    -fx-border-width: 1px;
+    -fx-padding: 10px 18px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #eaf2ff;
+    -fx-border-color: #2f80ed;
+}
+
+.button:pressed {
+    -fx-background-color: #dbeafe;
+}
+
+/* Primary actions */
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-border-color: #2563eb;
+    -fx-font-weight: bold;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+/* Admin */
+.admin-button {
+    -fx-background-color: #172b4d;
+    -fx-text-fill: white;
+    -fx-border-color: #172b4d;
+    -fx-font-weight: bold;
+}
+
+.admin-button:hover {
+    -fx-background-color: #253f68;
+}
+
+/* Logout */
+.logout-button {
+    -fx-text-fill: #b42318;
+    -fx-border-color: #f0b4ae;
+}
+
+.logout-button:hover {
+    -fx-background-color: #fff1f0;
+    -fx-border-color: #d92d20;
+}
+
+/* Text fields */
+.text-field,
+.password-field,
+.combo-box,
+.date-picker,
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #d7dfeb;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-padding: 9px;
+}
+
+.text-field:focused,
+.password-field:focused,
+.combo-box:focused,
+.date-picker:focused,
+.text-area:focused {
+    -fx-border-color: #2563eb;
+    -fx-border-width: 2px;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #26364d;
+}
+
+.message {
+    -fx-font-size: 14px;
+    -fx-text-fill: #526581;
+}
