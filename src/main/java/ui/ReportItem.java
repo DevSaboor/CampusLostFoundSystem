@@ -52,8 +52,8 @@ public class ReportItem {
 
         categoryIds.put("Electronics", 1);
         categoryIds.put("Documents", 2);
-        categoryIds.put("Clothing", 3);
-        categoryIds.put("Accessories", 4);
+        categoryIds.put("Accessories", 3);
+        categoryIds.put("Clothing", 4);
         categoryIds.put("Books", 5);
         categoryIds.put("Other", 6);
 
